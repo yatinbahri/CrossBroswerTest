@@ -1,0 +1,22 @@
+### Important
+
+Benefit of running the test cases on multiple browsers and parallel significantly reduces the execution time and coverage of multiple browsers.
+
+
+How to check the difference in execution time:
+
+run the test
+
+>> python -m pytest -s
+
+Note the time
+
+>> python -m pytest -n2
+
+Note the time difference.
+
+
+Additional Information - To display the test result percentage and HTML report. Install below plugins
+
+1. pytest-sugar for test result percentage
+2. pytest-html for HTML reports. Command - pytest --html-<dir>\report.html

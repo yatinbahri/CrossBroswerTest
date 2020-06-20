@@ -1,0 +1,6 @@
+py
+pytest-rerunfailures
+nose
+pytest
+pytest-xdist (for parallel execution)
+multiprocessing
